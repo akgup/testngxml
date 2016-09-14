@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNg Test" duration-ms="51" started-at="2016-09-14T18:11:58Z" finished-at="2016-09-14T18:11:59Z">
+    <groups>
+      <group name="Group1">
+        <method signature="TestNgClass1.testClass1Method1()[pri:0, instance:com.testng.demo.TestNgClass1@6d8a00e3]" name="testClass1Method1" class="com.testng.demo.TestNgClass1"/>
+        <method signature="TestNgClass2.testClass2Method1()[pri:0, instance:com.testng.demo.TestNgClass2@548b7f67]" name="testClass2Method1" class="com.testng.demo.TestNgClass2"/>
+      </group> <!-- Group1 -->
+      <group name="Group2">
+        <method signature="TestNgClass1.testClass1Method2()[pri:0, instance:com.testng.demo.TestNgClass1@6d8a00e3]" name="testClass1Method2" class="com.testng.demo.TestNgClass1"/>
+        <method signature="TestNgClass2.testClass2Method2()[pri:0, instance:com.testng.demo.TestNgClass2@548b7f67]" name="testClass2Method2" class="com.testng.demo.TestNgClass2"/>
+      </group> <!-- Group2 -->
+    </groups>
+    <test name="TestNg Test" duration-ms="51" started-at="2016-09-14T18:11:58Z" finished-at="2016-09-14T18:11:59Z">
+      <class name="com.testng.demo.TestNgClass1">
+        <test-method status="PASS" signature="testClass1Method1()[pri:0, instance:com.testng.demo.TestNgClass1@6d8a00e3]" name="testClass1Method1" duration-ms="8" started-at="2016-09-14T23:41:58Z" finished-at="2016-09-14T23:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClass1Method1 -->
+        <test-method status="PASS" signature="testClass1Method2()[pri:0, instance:com.testng.demo.TestNgClass1@6d8a00e3]" name="testClass1Method2" duration-ms="5" started-at="2016-09-14T23:41:58Z" finished-at="2016-09-14T23:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClass1Method2 -->
+      </class> <!-- com.testng.demo.TestNgClass1 -->
+      <class name="com.testng.demo.TestNgClass2">
+        <test-method status="PASS" signature="testClass2Method1()[pri:0, instance:com.testng.demo.TestNgClass2@548b7f67]" name="testClass2Method1" duration-ms="2" started-at="2016-09-14T23:41:59Z" finished-at="2016-09-14T23:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClass2Method1 -->
+        <test-method status="PASS" signature="testClass2Method2()[pri:0, instance:com.testng.demo.TestNgClass2@548b7f67]" name="testClass2Method2" duration-ms="2" started-at="2016-09-14T23:41:59Z" finished-at="2016-09-14T23:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClass2Method2 -->
+      </class> <!-- com.testng.demo.TestNgClass2 -->
+      <class name="com.testng.demo.SetupClass">
+        <test-method status="PASS" signature="beforeSuiteMethod()[pri:0, instance:com.testng.demo.SetupClass@5ae9a829]" name="beforeSuiteMethod" is-config="true" duration-ms="12" started-at="2016-09-14T23:41:58Z" finished-at="2016-09-14T23:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteMethod -->
+        <test-method status="PASS" signature="afterSuiteMethod()[pri:0, instance:com.testng.demo.SetupClass@5ae9a829]" name="afterSuiteMethod" is-config="true" duration-ms="0" started-at="2016-09-14T23:41:59Z" finished-at="2016-09-14T23:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteMethod -->
+      </class> <!-- com.testng.demo.SetupClass -->
+    </test> <!-- TestNg Test -->
+  </suite> <!-- TestNg Test -->
+</testng-results>
